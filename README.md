@@ -85,8 +85,7 @@ If you have any doubt about the setup you can reffer our video tutorial in [blog
 const form = document.getElementById("google-form");
 
 // App Script url
-const googleAppScriptUrl =
-  "https://script.google.com/macros/s/AKfycbx002lyv8UdRcag4p0VsrUujvMZI4uC2fp6kRKRNvZVFygVf6D2FOPoFWR8698tPjo/exec";
+const googleAppScriptUrl = "<Enter your App Script Deployed Url>";
 
 // Fuction to send data to google form when submit button is clicked
 form.addEventListener("submit", (e) => {
