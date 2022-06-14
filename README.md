@@ -11,13 +11,68 @@ We have included html file and javascript only file to this github
 [Only JavaScript](javascriptonly.js)
 
 [Google App Script](GoogleAppScript.gs)
+
+## Instructions
+
+> _Note_: If you need video explanation go to my [blog post](https://docs.sanayvarghese.tk)
+
 <br/>
 
-> _Warning_ : You must make sure your input elements name attribute's value must match with the Google Sheet Header
+```
+Step 1: Create A Google Sheet
+```
+
+```
+Step 2: Add Headers to the Google Sheet
+```
+
+> _Warning_ : You must make sure your input element name attribute's value must match with the Google Sheet Header
+
+```
+Step 3: Go to Extensions . Click on AppScript
+```
+
+```
+Step 4: Give a Name to AppScript
+```
+
+```
+Step 5: Replace the default code from "Code.gs" file to the code from 'GoogleAppScript.gs' That i have provided in github
+```
+
+```
+Step 6: Click on Deploy - New Deployement
+```
+
+```
+Step 7: Click on settings icon from select type, and choose Web app
+```
+
+```
+Step 8: Give a description and change only myself to anyone
+```
+
+```
+Step 9: Click on Deploy
+```
+
+```
+Step 10: Copy the url and paste it into the html file's variable called googleAppScriptUrl
+```
+
+```
+Step 11: Go back to Google AppScript Select initalSetup from top and click on Run
+```
+
+```
+Step 10: Now Everthing is Ready !! Send Data from the html form to Google Sheets
+```
 
 If you have any doubt about the setup you can reffer our [blog post](https://docs.sanayvarghese.tk)
 
 <br/>
+
+---
 
 ### JavaScript
 
@@ -47,6 +102,8 @@ form.addEventListener("submit", (e) => {
   }
 });
 ```
+
+---
 
 ### App Script
 
@@ -90,3 +147,5 @@ function doPost(e) {
   }
 }
 ```
+
+---
