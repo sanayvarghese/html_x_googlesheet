@@ -56,6 +56,10 @@ Step 8: Give a description and change only myself to anyone
 Step 9: Click on Deploy
 ```
 
+> _Note_: If you haven't autorized yet click on Authorize access and select your gmail account then click on advance and click on "go to \<your script name> (unsafe)"
+
+> _Warning_: It is showing unsafe because you selected Anyone. _It's Safe_
+
 ```
 Step 10: Copy the url and paste it into the html file's variable called googleAppScriptUrl
 ```
