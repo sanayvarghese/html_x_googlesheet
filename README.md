@@ -1,6 +1,7 @@
 ## HTML + JavaScript x Google Sheets
 
 <br/>
+Send Html form data to Google Sheets or Excel
 
 We have included html file and javascript only file to this github
 
@@ -12,6 +13,8 @@ We have included html file and javascript only file to this github
 
 [Google App Script](GoogleAppScript.gs)
 
+> _Note_: You can refer my [blog post](https://docs.sanayvarghese.tk) for syncing data from Google sheet to Excel.
+
 ## Instructions
 
 > _Note_: If you need video explanation go to my [blog post](https://docs.sanayvarghese.tk)
@@ -19,7 +22,7 @@ We have included html file and javascript only file to this github
 <br/>
 
 ```
-Step 1: Create A Google Sheet
+Step 1: Create A Google Sheet and give it a Name
 ```
 
 ```
@@ -72,7 +75,7 @@ Step 11: Go back to Google AppScript Select initalSetup from top and click on Ru
 Step 10: Now Everthing is Ready !! Send Data from the html form to Google Sheets
 ```
 
-If you have any doubt about the setup you can reffer our video tutorial in [blog post](https://docs.sanayvarghese.tk) or send a email to helloto.sanay@gmail.com
+If you have any doubt about the setup you can refer our video tutorial in [blog post](https://docs.sanayvarghese.tk) or send a email to helloto.sanay@gmail.com
 
 <br/>
 
