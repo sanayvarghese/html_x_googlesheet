@@ -72,7 +72,7 @@ Step 11: Go back to Google AppScript Select initalSetup from top and click on Ru
 Step 10: Now Everthing is Ready !! Send Data from the html form to Google Sheets
 ```
 
-If you have any doubt about the setup you can reffer our [blog post](https://docs.sanayvarghese.tk)
+If you have any doubt about the setup you can reffer our video tutorial in [blog post](https://docs.sanayvarghese.tk) or send a email to helloto.sanay@gmail.com
 
 <br/>
 
