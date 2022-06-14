@@ -1,7 +1,5 @@
 ## HTML + JavaScript x Google Sheets
 
-<br/>
-
 Send Html form data to [Google Sheets](#instructions) or [Excel](#html-to-excel)
 
 We have included html file and javascript only file to this github
