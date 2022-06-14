@@ -13,6 +13,8 @@ We have included html file and javascript only file to this github
 
 [Google App Script](GoogleAppScript.gs)
 
+##### Html to Excel
+
 > _Note_: You can refer my [blog post](https://docs.sanayvarghese.tk) for syncing data from Google sheet to Excel.
 
 ## Instructions
