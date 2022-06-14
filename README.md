@@ -4,7 +4,7 @@
 
 We have included html file and javascript only file to this github
 
-<img src="https://firebasestorage.googleapis.com/v0/b/dgcloud1-b1c43.appspot.com/o/download.png?alt=media&token=eb0282d5-a491-4384-96a8-64a8f6522934" alt="Gif Demo" style="height: 100%; width:100%;"/>
+<img src="./assets/demo.gif" alt="Gif Demo" style="height: 100%; width:100%;"/>
 
 [Html File](html.html)
 
