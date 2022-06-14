@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML x Google Sheets</title>
+  </head>
+
+  <body>
+    <form method="post" id="google-form">
+      <!-- Input Field name must match with google sheet Header -->
+      <input type="text" name="First Name" placeholder="First Name" />
+      <input type="text" name="Second Name" placeholder="Second Name" />
+      <input
+        name="Age"
+        type="number"
+        placeholder="Age"
+        placeholder="Your Age"
+      />
+      <button type="submit" value="send">Submit</button>
+    </form>
+
+    <script>
+      // Get Form by its id
+      const form = document.getElementById("google-form");
+
+      // App Script url
+      const googleAppScriptUrl =
+        "https://script.google.com/macros/s/AKfycbw2LNJHyIrVcFmipA53THfzOqZHZPRzOBKOfBiXP0jcYiTjhUZB5ae3HnCj4h-ytrB3GQ/exec";
+      // Fuction to send data to google form when submit button is clicked
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        try {
+          fetch(googleAppScriptUrl, {
+            method: "POST",
+            mode: "no-cors",
+            body: new FormData(form),
+          }).then(() => {
+            // Do someting After successfull submission
+            console.log("success");
+            alert("Successfully Submitted");
+          });
+        } catch (error) {
+          // Do something for the error case
+          console.log(error);
+        }
+      });
+    </script>
+  </body>
+</html>
