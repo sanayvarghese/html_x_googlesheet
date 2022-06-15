@@ -1,4 +1,4 @@
-## HTML + JavaScript x Google Sheets
+# Send data from Html form to Google Sheets or Excel
 
 Send Html form data to [Google Sheets](#instructions) or [Excel](#html-to-excel)
 
